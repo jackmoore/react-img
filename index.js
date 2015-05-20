@@ -17,7 +17,7 @@ module.exports = React.createClass({
 			error: this.props.src == null,
 		};
 	},
-	componentWillReceiveProps(nextProps) {
+	componentWillReceiveProps: function(nextProps) {
 		if (nextProps.src !== this.props.src) {
 			this.setState({
 				loading: true,

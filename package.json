@@ -1,0 +1,28 @@
+{
+  "name": "react-img",
+  "description": ". ",
+  "version": "0.0.0",
+  "keywords": [
+    "react-component",
+    "react"
+  ],
+  "peerDependencies": {
+    "react": ">=0.13.0"
+  },
+  "author": {
+    "name": "Jack Moore",
+    "url": "http://www.jacklmoore.com",
+    "email": "hello@jacklmoore.com"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jackmoore/react-img.git"
+  },
+  "scripts": {
+    "major-release": "npm version major && npm publish && git push --follow-tags",
+    "minor-release": "npm version minor && npm publish && git push --follow-tags",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  }
+}

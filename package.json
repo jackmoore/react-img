@@ -6,7 +6,7 @@
     "react-component",
     "react"
   ],
-  "peerDependencies": {
+  "devDependencies": {
     "react": ">=0.13.0"
   },
   "author": {

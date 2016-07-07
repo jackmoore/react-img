@@ -32,6 +32,10 @@ module.exports = React.createClass({
 			props[key] = this.props[key];
 		}.bind(this));
 
+		delete props.loadingAttr;
+		delete props.errorAttr;
+		delete props.errorSrc;
+
 		props[this.props.loadingAttr] = this.state.loading ? true : null;
 
 		props[this.props.errorAttr] = this.state.error ? true : null;

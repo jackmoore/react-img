@@ -1,7 +1,7 @@
 {
   "name": "react-img",
-  "description": ". ",
-  "version": "1.0.2",
+  "description": "An <img> element with loading & error behaviors",
+  "version": "1.0.3",
   "keywords": [
     "react-component",
     "react"
@@ -19,10 +19,5 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/jackmoore/react-img.git"
-  },
-  "scripts": {
-    "major-release": "npm version major && npm publish && git push --follow-tags",
-    "minor-release": "npm version minor && npm publish && git push --follow-tags",
-    "patch-release": "npm version patch && npm publish && git push --follow-tags"
   }
 }

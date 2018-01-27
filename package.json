@@ -1,7 +1,7 @@
 {
-  "name": "react-img",
+  "name": "arc-dynamic-img",
   "description": "An <img> element with loading & error behaviors",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "react-component",
     "react"
